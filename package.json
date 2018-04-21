@@ -4,6 +4,7 @@
   "description": "a typedoc plugin add .nojekyll for github pages",
   "main": "index.js",
   "scripts": {
+    "local-link": "npm link typedoc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,5 +21,15 @@
     "typedoc": "^0.11.1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/typedoc-plugin-nojekyll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bluelovers/typedoc-plugin-nojekyll/issues"
+  },
+  "homepage": "https://github.com/bluelovers/typedoc-plugin-nojekyll#readme"
 }

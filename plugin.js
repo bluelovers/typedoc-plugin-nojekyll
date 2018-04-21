@@ -16,13 +16,11 @@ const components_1 = require("typedoc/dist/lib/output/components");
 const events_1 = require("typedoc/dist/lib/output/events");
 let NoJekyllTypeDocPlugin = class NoJekyllTypeDocPlugin extends components_1.RendererComponent {
     initialize() {
-        //console.log(3, NoJekyllTypeDocPlugin.PLUGINID);
         this.listenTo(this.owner, {
             [events_1.RendererEvent.BEGIN]: this.onRendererBegin
         });
     }
     onRendererBegin(event) {
-        //console.log(4, NoJekyllTypeDocPlugin.PLUGINID);
         const nojekyll = Path.join(event.outputDirectory, '.nojekyll');
         FS.ensureFile(nojekyll);
     }

@@ -17,8 +17,6 @@ export class NoJekyllTypeDocPlugin extends RendererComponent
 
 	initialize()
 	{
-		//console.log(3, NoJekyllTypeDocPlugin.PLUGINID);
-
 		this.listenTo(this.owner, {
 			[RendererEvent.BEGIN]: this.onRendererBegin
 		});
@@ -26,8 +24,6 @@ export class NoJekyllTypeDocPlugin extends RendererComponent
 
 	private onRendererBegin(event: RendererEvent)
 	{
-		//console.log(4, NoJekyllTypeDocPlugin.PLUGINID);
-
 		const nojekyll = Path.join(event.outputDirectory, '.nojekyll');
 
 		FS.ensureFile(nojekyll);
