@@ -1,0 +1,24 @@
+{
+  "name": "typedoc-plugin-nojekyll",
+  "version": "1.0.0",
+  "description": "a typedoc plugin add .nojekyll for github pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "pages",
+    "docs",
+    "jekyll",
+    "nojekyll",
+    "typedocplugin",
+    "typedoc"
+  ],
+  "peerDependencies": {
+    "fs-extra": "^5.0.0",
+    "typedoc": "^0.11.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
