@@ -1,35 +1,36 @@
 {
   "name": "typedoc-plugin-nojekyll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a typedoc plugin add .nojekyll for github pages",
+  "keywords": [
+    "docs",
+    "github",
+    "jekyll",
+    "nojekyll",
+    "pages",
+    "typedoc",
+    "typedocplugin"
+  ],
+  "homepage": "https://github.com/bluelovers/typedoc-plugin-nojekyll#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/typedoc-plugin-nojekyll/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/typedoc-plugin-nojekyll.git"
+  },
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "local-link": "npm link typedoc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "github",
-    "pages",
-    "docs",
-    "jekyll",
-    "nojekyll",
-    "typedocplugin",
-    "typedoc"
-  ],
-  "peerDependencies": {
-    "fs-extra": "^5.0.0",
-    "typedoc": "^0.11.1"
+  "dependencies": {
+    "fs-extra": "^6.0.1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bluelovers/typedoc-plugin-nojekyll.git"
-  },
-  "bugs": {
-    "url": "https://github.com/bluelovers/typedoc-plugin-nojekyll/issues"
-  },
-  "homepage": "https://github.com/bluelovers/typedoc-plugin-nojekyll#readme"
+  "peerDependencies": {
+    "typedoc": "^0.11.1"
+  }
 }
